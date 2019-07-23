@@ -43,7 +43,7 @@ plugins:
   - jekyll-feed
   - jekyll-paginate
 permalink: pretty
-paginate: 5
+paginate: 3
 markdown: kramdown
 kramdown:
   input: GFM                            # use Github Flavored Markdown !important
