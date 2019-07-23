@@ -1,0 +1,12 @@
+---
+layout: page
+title: "About"
+description: "Make Life Productive(让生命富有成效)"
+header-img: "img/about-bg.jpg"
+---
+
+<!-- English Version -->
+<div class="en post-container">
+    {% capture about_en %}{% include about/en.md %}{% endcapture %}
+    {{ about_en | markdownify }}
+</div>
