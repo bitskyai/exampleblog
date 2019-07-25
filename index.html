@@ -23,7 +23,7 @@ description: "Make Life Productive(让生命富有成效)"
         </div>
     </a>
     <p class="post-meta">
-        Posted by {% if post.author %}{{ post.author }}{% else %}{{ site.title }}{% endif %} on {% if post.dateFormat %} {{ post.date | date: post.dateFormat }}{% else %}{{ post.date | date: "%B %-d, %Y" }}{% endif %}
+        Posted by <span class='author'>{% if post.author %}{{ post.author }}{% else %}{{ site.title }}{% endif %}</span> on <span class="date">{% if post.dateFormat %} {{ post.date | date: post.dateFormat }}{% else %}{{ post.date | date: "%B %-d, %Y" }}{% endif %}</span>
     </p>
 </div>
 <hr>
